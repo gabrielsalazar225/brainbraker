@@ -46,10 +46,7 @@ function getRandomEmployee(employees) {
 }
 
 // Example usage
-let employees = collectEmployees();
-displayAverageSalary(employees);
-getRandomEmployee(employees);
-//   ====================
+
 //   STARTER CODE
  //Do not modify any of the code below this line:
 
@@ -111,8 +108,8 @@ const trackEmployeeData = function() {
 }
 
 // Add event listener to 'Add Employees' button
-//addEmployeesBtn.addEventListener('click', trackEmployeeData);
+addEmployeesBtn.addEventListener('click', trackEmployeeData);
 
 //Get a reference to the #add-employees-btn element
 
-// Get a reference to the #add-employees-btn element
+
